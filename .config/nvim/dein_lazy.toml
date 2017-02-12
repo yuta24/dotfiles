@@ -1,0 +1,14 @@
+[[plugins]]
+repo = 'Shougo/neco-vim'
+on_ft = 'vim'
+
+[[plugins]]
+repo = 'Shougo/neoinclude.vim'
+on_event = 'InsertEnter'
+
+[[plugins]]
+repo = 'Shougo/neosnippet'
+depends = ['neosnippet-snippets']
+on_event = 'InsertEnter'
+on_ft = ['snippet']
+
