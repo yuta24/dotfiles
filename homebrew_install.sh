@@ -14,6 +14,7 @@ echo "OK. Run brew upgrade..."
 brew upgrade --all
 
 formulas=(
+    cask
     git
     git-lfs
     carthage
@@ -26,3 +27,25 @@ formulas=(
     jq
     cloc
 )
+
+echo "start brew install apps..."
+for formula in "${formulas[@]}"; do
+    brew install $formula || brew upgrade $formula
+done
+
+casks=(
+    skitch
+    google-chrome
+    google-japanese-ime
+    slack
+    iterm2
+    visual-studio-code
+)
+
+echo "start brew cask install apps..."
+for cask in "${casks[@]}"; do
+    brew cask install $cask
+done
+
+brew cleanup
+brew cask cleanup
