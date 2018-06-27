@@ -11,3 +11,7 @@ if which brew &> /dev/null && [ -d "$(brew --prefix)/etc/bash_completion.d" ]; t
     fi
   done
 fi
+
+# For Ruby
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
