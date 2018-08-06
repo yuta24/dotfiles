@@ -50,7 +50,7 @@ casks=(
     docker
     1password
     skype
-    intellij-idea-community
+    intellij-idea-ce
     daisydisk
 )
 
