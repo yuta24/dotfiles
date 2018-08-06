@@ -25,6 +25,7 @@ formulas=(
     jq
     cloc
     envchain
+    screenresolution
     rbenv
     ruby-build
     haskell-stack
