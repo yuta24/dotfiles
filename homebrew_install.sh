@@ -19,8 +19,7 @@ formulas=(
     git-lfs
     carthage
     wget
-    bash-completions
-    git-completions
+    bash-completion
     ghq
     peco
     jq
