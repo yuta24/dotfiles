@@ -1,6 +1,13 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 git pull origin master;
+
+function install_homebrew() {
+    command -v 'brew' > /dev/null 2>&1 && return
+    echo 'Installing homebrew...'
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    echo 'done'
+}
 
 function doIt() {
 	rsync --exclude ".git/" \
@@ -13,5 +20,7 @@ function doIt() {
 }
 
 doIt;
+
+install_homebrew;
 
 unset doIt;

@@ -20,12 +20,16 @@ formulas=(
     carthage
     wget
     bash-completions
+    git-completions
     ghq
     peco
-    rbenv
-    ruby-build
     jq
     cloc
+    envchain
+    rbenv
+    ruby-build
+    haskell-stack
+    go
 )
 
 echo "start brew install apps..."
@@ -35,11 +39,19 @@ done
 
 casks=(
     skitch
+    sketch
     google-chrome
     google-japanese-ime
     slack
     iterm2
     visual-studio-code
+    alfred
+    dropbox
+    docker
+    1password
+    skype
+    intellij-idea-community
+    daisydisk
 )
 
 echo "start brew cask install apps..."
