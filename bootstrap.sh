@@ -13,6 +13,7 @@ function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude "bootstrap.sh" \
+		--exclude "homebrew_install.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE" \
 		-avh --no-perms . ~;

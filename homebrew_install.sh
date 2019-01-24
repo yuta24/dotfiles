@@ -30,6 +30,7 @@ formulas=(
     ruby-build
     haskell-stack
     go
+    awscli
 )
 
 echo "start brew install apps..."
