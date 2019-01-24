@@ -31,6 +31,7 @@ formulas=(
     haskell-stack
     go
     awscli
+    bitrise
 )
 
 echo "start brew install apps..."
