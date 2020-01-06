@@ -11,37 +11,40 @@ which brew >/dev/null 2>&1 && brew update
 
 echo "OK. Run brew upgrade..."
 
-brew upgrade --all
+brew upgrade -f
 
 formulas=(
     cask
+    screenresolution
+    tmux
+    zsh
+    zsh-completions
+    z
     git
     git-lfs
-    carthage
     wget
-    bash-completion
     ghq
     peco
     jq
     cloc
     envchain
-    screenresolution
+    nodejs
+    haskell-stack
+    rust
+    awscli
     rbenv
     ruby-build
-    haskell-stack
-    go
-    awscli
+    carthage
     bitrise
 )
 
 echo "start brew install apps..."
 for formula in "${formulas[@]}"; do
-    brew install $formula || brew upgrade $formula
+    brew reinstall $formula || brew upgrade $formula
 done
 
 casks=(
     skitch
-    sketch
     google-chrome
     google-japanese-ime
     slack
@@ -51,7 +54,6 @@ casks=(
     dropbox
     docker
     1password
-    skype
     intellij-idea-ce
     daisydisk
 )

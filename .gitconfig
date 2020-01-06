@@ -8,3 +8,6 @@
 [push]
     default = simple
 
+[core]
+    ignorecase = false
+    excludesfile = ~/.gitignore_global

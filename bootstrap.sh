@@ -17,4 +17,10 @@ doIt;
 
 sh homebrew_install.sh
 
+# Change shell to zsh
+echo `which zsh` | sudo tee -a /etc/shells
+chsh -s `which zsh`
+
+zsh
+
 unset doIt;

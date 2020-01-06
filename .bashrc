@@ -15,3 +15,9 @@ fi
 # For Ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# For Rust
+export PATH=$PATH:$HOME/.cargo/bin
+
+# For Node.js
+export PATH=$PATH:./node_modules/.bin
