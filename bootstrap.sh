@@ -21,6 +21,6 @@ sh homebrew_install.sh
 echo `which zsh` | sudo tee -a /etc/shells
 chsh -s `which zsh`
 
-zsh
+sh setup_zsh.sh
 
 unset doIt;
