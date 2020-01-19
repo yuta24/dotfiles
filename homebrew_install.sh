@@ -56,6 +56,7 @@ casks=(
     1password
     intellij-idea-ce
     daisydisk
+    java
 )
 
 echo "start brew cask install apps..."
