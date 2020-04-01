@@ -36,6 +36,7 @@ formulas=(
     ruby-build
     carthage
     bitrise
+    graphviz
 )
 
 echo "start brew install apps..."
