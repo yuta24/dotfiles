@@ -3,6 +3,10 @@
 set -eu
 
 function clone() {
+	if [ -d ~/dotfiles ]; then
+		rm -rf ~/dotfiles
+	fi
+
 	git clone --depth=1 https://github.com/yuta24/dotfiles.git ~/dotfiles
 }
 
