@@ -1,26 +1,13 @@
 #!/usr/bin/env bash
 
-git pull origin master;
+set -eu
 
-function doIt() {
-	rsync --exclude ".git/" \
-		--exclude ".DS_Store" \
-		--exclude "bootstrap.sh" \
-		--exclude "homebrew_install.sh" \
-		--exclude "README.md" \
-		--exclude "LICENSE" \
-		-avh --no-perms . ~;
-	source ~/.bash_profile;
+function clone() {
+	git clone --depth=1 https://github.com/yuta24/dotfiles.git ~/dotfiles
 }
 
-doIt;
+function main() {
+	clone
+}
 
-sh homebrew_install.sh
-
-# Change shell to zsh
-echo `which zsh` | sudo tee -a /etc/shells
-chsh -s `which zsh`
-
-sh setup_zsh.sh
-
-unset doIt;
+main
