@@ -1,9 +1,18 @@
 #!/usr/bin/env bash
 
+taps=(
+    jakehilborn/jakehilborn
+)
+
+for tap in "${taps[@]}"; do
+    brew tap $tap
+done
+
 formulas=(
     cask
     cloc
     direnv
+    displayplacer
     envchain
     ghq
     git
