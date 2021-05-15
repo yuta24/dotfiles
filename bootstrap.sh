@@ -23,11 +23,16 @@ function sync_config() {
 	rsync -avr --no-perms ~/dotfiles/config/ ~/;
 }
 
+function install_tools() {
+	sh ~/dotfiles/install_tools.sh
+}
+
 function main() {
 	clone
 	setup_shell
 	sync_config
 	install_brew
+	install_tools
 }
 
 main
