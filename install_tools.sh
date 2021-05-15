@@ -19,6 +19,7 @@ formulas=(
     git-lfs
     jq
     mas
+    peco
     rustup
     starship
     tmux
