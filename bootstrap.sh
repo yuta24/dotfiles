@@ -27,8 +27,9 @@ function install_tools() {
 	sh ~/dotfiles/install_tools.sh
 }
 
-function setup_anyenv() {
-	anyenv install --init
+function setup_rust() {
+	rustup-init
+	rustup update
 }
 
 function main() {
@@ -37,7 +38,7 @@ function main() {
 	sync_config
 	install_brew
 	install_tools
-	setup_anyenv
+	setup_rust
 }
 
 main
