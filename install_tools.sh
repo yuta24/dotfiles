@@ -23,6 +23,7 @@ formulas=(
     rustup
     starship
     tmux
+    zsh-completions
 )
 
 for formula in "${formulas[@]}"; do
