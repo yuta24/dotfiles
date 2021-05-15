@@ -11,6 +11,7 @@ formulas=(
     git-lfs
     jq
     mas
+    starship
     tmux
 )
 
