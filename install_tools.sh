@@ -11,7 +11,6 @@ formulas=(
     git-lfs
     jq
     mas
-    rustup
     tmux
 )
 
