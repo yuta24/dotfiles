@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 formulas=(
-    anyenv
     cask
     cloc
     direnv
