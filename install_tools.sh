@@ -59,3 +59,11 @@ for app in "${apps[@]}"; do
 done
 
 brew cleanup
+
+extensions=(
+    vscodevim.vim
+)
+
+for extension in "${extensions[@]}"; do
+    code --install-extension $extension
+done
