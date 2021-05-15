@@ -1,5 +1,5 @@
 [color]
-    ui = auto
+    ui = true
 
 [user]
     name = yuta24
@@ -10,4 +10,6 @@
 
 [core]
     ignorecase = false
-    excludesfile = ~/.gitignore_global
+    excludesfile = ~/.gitignore
+[diff]
+    indent-heuristic = true

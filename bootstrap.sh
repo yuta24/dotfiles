@@ -19,9 +19,14 @@ function setup_shell() {
 	sh ~/dotfiles/shell/setup.sh
 }
 
+function sync_config() {
+	rsync -avr --no-perms ~/dotfiles/config/ ~/;
+}
+
 function main() {
 	clone
 	setup_shell
+	sync_config
 	install_brew
 }
 
