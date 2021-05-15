@@ -27,12 +27,22 @@ function install_tools() {
 	sh ~/dotfiles/install_tools.sh
 }
 
+function install_rust() {
+	expect -c "
+		spawn rustup-init
+		expect \">\"
+		send -- 1
+		interact
+	"
+}
+
 function main() {
 	clone
 	setup_shell
 	sync_config
 	install_brew
 	install_tools
+	install_rust
 }
 
 main

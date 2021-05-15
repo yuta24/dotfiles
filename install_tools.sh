@@ -10,6 +10,7 @@ formulas=(
     git-lfs
     jq
     mas
+    rustup
     starship
     tmux
 )
