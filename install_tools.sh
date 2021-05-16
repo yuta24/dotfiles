@@ -90,9 +90,9 @@ done
 cargos=(
     bat
     broot
-    delta
     exa
-    fd
+    fd-find
+    git-delta
     ripgrep
     skim
     tokei

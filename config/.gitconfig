@@ -1,15 +1,23 @@
+[core]
+    excludesfile = ~/.gitignore
+    ignorecase = false
+    pager = delta
+
 [color]
     ui = true
 
-[user]
-    name = yuta24
-    email = yuta24@bivre.com
+[delta]
+    line-numbers=true
+
+[diff]
+    indent-heuristic = true
+
+[interactive]
+    diffFilter = delta --color-only
 
 [push]
     default = simple
 
-[core]
-    ignorecase = false
-    excludesfile = ~/.gitignore
-[diff]
-    indent-heuristic = true
+[user]
+    name = yuta24
+    email = yuta24@bivre.com
