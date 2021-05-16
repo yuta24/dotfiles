@@ -24,3 +24,8 @@ function ghq_with_peco() {
 
 zle -N ghq_with_peco
 bindkey '^g' ghq_with_peco
+
+alias ls='exa'
+alias cat='bat'
+alias find='fd'
+alias grep='rg'

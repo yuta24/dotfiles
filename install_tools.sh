@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 taps=(
+    homebrew/cask-fonts
     jakehilborn/jakehilborn
 )
 
@@ -15,6 +16,7 @@ formulas=(
     direnv
     displayplacer
     envchain
+    font-hack-nerd-font
     ghq
     git
     git-lfs
@@ -83,4 +85,19 @@ extensions=(
 
 for extension in "${extensions[@]}"; do
     code --install-extension $extension
+done
+
+cargos=(
+    bat
+    broot
+    delta
+    exa
+    fd
+    ripgrep
+    skim
+    tokei
+)
+
+for cargo in "${cargos[@]}"; do
+    cargo install $cargo
 done
