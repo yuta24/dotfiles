@@ -10,6 +10,7 @@ done
 
 formulas=(
     cask
+    charles
     cloc
     direnv
     displayplacer
@@ -17,12 +18,16 @@ formulas=(
     ghq
     git
     git-lfs
+    grammarly
     jq
     mas
     peco
+    postman
     rustup
+    sequel-pro
     starship
     tmux
+    xcodes
     zsh-completions
 )
 
