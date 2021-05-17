@@ -55,6 +55,7 @@ casks=(
     loopback
     miro
     notion
+    obsidian
     sim-genie
     skitch
     slack
