@@ -56,6 +56,7 @@ casks=(
     miro
     notion
     obsidian
+    sf-symbols
     sim-genie
     skitch
     slack
