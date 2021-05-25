@@ -31,7 +31,7 @@ function install_rust() {
 	expect -c "
 		spawn rustup-init
 		expect \">\"
-		send -- 1
+		send -- 1\n
 		interact
 	"
 }
