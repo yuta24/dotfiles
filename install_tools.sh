@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 taps=(
+    dart-lang/dart
     homebrew/cask-fonts
     jakehilborn/jakehilborn
 )
@@ -13,6 +14,7 @@ formulas=(
     cask
     charles
     cloc
+    dart
     direnv
     displayplacer
     envchain
