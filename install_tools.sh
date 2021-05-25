@@ -105,3 +105,11 @@ cargos=(
 for cargo in "${cargos[@]}"; do
     cargo install $cargo
 done
+
+pubs=(
+    fvm
+)
+
+for pub in "${pubs[@]}"; do
+    pub global activate $pub
+done
