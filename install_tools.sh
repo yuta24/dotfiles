@@ -58,6 +58,7 @@ casks=(
     miro
     notion
     obsidian
+    reflector
     sf-symbols
     sim-genie
     skitch
