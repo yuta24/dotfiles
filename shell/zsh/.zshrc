@@ -3,6 +3,7 @@ compinit
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
+eval "$(anyenv init -)"
 
 export PATH="$PATH":"$HOME/.cargo/bin"
 

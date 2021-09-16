@@ -12,6 +12,7 @@ for tap in "${taps[@]}"; do
 done
 
 formulas=(
+    anyenv
     cask
     cloc
     direnv
