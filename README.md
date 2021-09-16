@@ -7,3 +7,7 @@ macOS環境向けに記述された dotfiles です。
 $ xcode-select --install
 ```
 
+```sh
+$ curl -L https://raw.githubusercontent.com/yuta24/dotfiles/main/bootstrap.sh | bash
+```
+
