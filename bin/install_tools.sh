@@ -55,6 +55,7 @@ casks=(
     notion
     obsidian
     postman
+    raycast
     reflector
     sequel-pro
     sf-symbols
