@@ -10,35 +10,17 @@ function clone() {
     git clone --depth=1 https://github.com/yuta24/dotfiles.git ~/dotfiles
 }
 
-function setup_shell() {
-    sh ~/dotfiles/shell/setup.sh
-}
-
-function sync_config() {
-    rsync -avr --no-perms ~/dotfiles/config/ ~/;
-}
-
-function install_tools() {
-    sh ~/dotfiles/install_tools.sh
-}
-
-function install_rust() {
-	expect -c "
-		spawn rustup-init
-		expect \">\"
-		send -- 1\n
-		interact
-	"
-}
-
 function main() {
     clone
 
-    sh ~/dotfiles/bin/install.sh
-	# setup_shell
-	# sync_config
-	# install_tools
-	# install_rust
+    sh ~/dotfiles/bin/setup.sh
+    
+    rsync -avr --no-perms ~/dotfiles/config/ ~/;
+
+    which brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    which brew >/dev/null 2>&1 || brew update
+
+    sh ~/dotfiles/bin/install_tools.sh
 }
 
 main

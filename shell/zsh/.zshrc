@@ -4,6 +4,8 @@ compinit
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
 
+export PATH="$PATH":"$HOME/.cargo/bin"
+
 function history_with_peco() {
   BUFFER=$(\history -n 1 | peco --query "$LBUFFER")
   CURSOR=$#BUFFER

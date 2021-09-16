@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eu
+
 taps=(
     homebrew/cask-fonts
     jakehilborn/jakehilborn
@@ -11,7 +13,6 @@ done
 
 formulas=(
     cask
-    charles
     cloc
     direnv
     displayplacer
@@ -20,16 +21,12 @@ formulas=(
     ghq
     git
     git-lfs
-    grammarly
     jq
     mas
     peco
-    postman
-    rustup
-    sequel-pro
+    rust
     starship
     tmux
-    xcodes
     zsh-completions
 )
 
@@ -39,10 +36,10 @@ done
 
 casks=(
     1password
-    adobe-creative-cloud
     alfred
     alacritty
     authy
+    charles
     daisydisk
     deepl
     discord
@@ -52,17 +49,21 @@ casks=(
     flipper
     google-chrome
     google-drive-file-stream
+    grammarly
     loopback
     miro
     notion
     obsidian
+    postman
     reflector
+    sequel-pro
     sf-symbols
     sim-genie
     skitch
     slack
     spotify
     visual-studio-code
+    xcodes
     zoom
 )
 
