@@ -99,6 +99,7 @@ cargos=(
     exa
     fd-find
     git-delta
+    just
     ripgrep
     skim
     tokei
