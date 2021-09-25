@@ -19,6 +19,7 @@ formulas=(
     displayplacer
     envchain
     font-hack-nerd-font
+    gh
     ghq
     git
     git-lfs
