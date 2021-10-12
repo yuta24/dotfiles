@@ -52,6 +52,7 @@ casks=(
     google-chrome
     google-drive-file-stream
     grammarly
+    imagemagick
     loopback
     miro
     notion
