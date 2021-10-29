@@ -19,10 +19,12 @@ formulas=(
     displayplacer
     envchain
     font-hack-nerd-font
+    gawk
     gh
     ghq
     git
     git-lfs
+    gpg
     jq
     mas
     peco
