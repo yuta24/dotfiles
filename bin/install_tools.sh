@@ -79,6 +79,7 @@ done
 
 apps=(
     640199958 # Developer
+    1380446739 # InjectionIII
     1504940162 # RocketSim for Xcode
     1450874784 # Transporter
 )
