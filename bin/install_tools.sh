@@ -55,6 +55,7 @@ casks=(
     google-drive-file-stream
     grammarly
     imagemagick
+    insomnia
     loopback
     miro
     notion
