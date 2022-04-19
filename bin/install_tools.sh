@@ -43,7 +43,6 @@ casks=(
     alfred
     alacritty
     authy
-    charles
     daisydisk
     deepl
     discord
@@ -61,6 +60,7 @@ casks=(
     notion
     obsidian
     postman
+    proxyman
     raycast
     reflector
     sequel-pro
