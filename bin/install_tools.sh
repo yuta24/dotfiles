@@ -59,7 +59,6 @@ casks=(
     miro
     notion
     obsidian
-    postman
     proxyman
     raycast
     reflector
