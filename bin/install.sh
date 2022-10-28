@@ -53,7 +53,6 @@ casks=(
     google-chrome
     google-drive-file-stream
     grammarly
-    imagemagick
     insomnia
     loopback
     miro
