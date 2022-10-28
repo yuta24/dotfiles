@@ -4,7 +4,6 @@ set -eu
 
 taps=(
     homebrew/cask-fonts
-    jakehilborn/jakehilborn
 )
 
 for tap in "${taps[@]}"; do
@@ -16,7 +15,6 @@ formulas=(
     cask
     cloc
     direnv
-    displayplacer
     envchain
     font-hack-nerd-font
     gawk
