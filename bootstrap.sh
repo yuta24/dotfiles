@@ -11,16 +11,19 @@ function clone() {
 }
 
 function main() {
+    # Prepare
     clone
-
-    sh ~/dotfiles/bin/setup.sh
-    
-    rsync -avr --no-perms ~/dotfiles/config/ ~/;
 
     which brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     which brew >/dev/null 2>&1 || brew update
 
-    sh ~/dotfiles/bin/install_tools.sh
+    # Install tools
+    sh ~/dotfiles/bin/install.sh
+
+    # sh ~/dotfiles/bin/setup.sh
+
+    # rsync -avr --no-perms ~/dotfiles/config/ ~/;
+
 }
 
 main
