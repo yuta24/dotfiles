@@ -98,7 +98,7 @@ done
 cargos=(
     bat
     broot
-    exa
+    eza
     fd-find
     git-delta
     just
