@@ -3,8 +3,7 @@ compinit
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
-
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+eval "$(mise activate zsh)"
 
 export PATH="$PATH":"$HOME/.cargo/bin"
 

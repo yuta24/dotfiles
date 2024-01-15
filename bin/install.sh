@@ -11,7 +11,6 @@ for tap in "${taps[@]}"; do
 done
 
 formulas=(
-    asdf
     cask
     cloc
     direnv
@@ -25,6 +24,7 @@ formulas=(
     gpg
     jq
     mas
+    mise
     peco
     rust
     starship
