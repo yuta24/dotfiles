@@ -38,35 +38,32 @@ done
 
 casks=(
     1password
-    alfred
-    alacritty
-    authy
+    arc
     daisydisk
     deepl
     discord
-    docker
     dropbox
     figma
     flipper
     google-chrome
-    google-drive-file-stream
+    google-drive
     grammarly
     insomnia
-    loopback
     miro
     notion
+    notion-calendar
     obsidian
     proxyman
     raycast
     reflector
-    sequel-pro
     sf-symbols
-    sim-genie
-    skitch
     slack
     spotify
+    tableplus
     visual-studio-code
+    warp
     xcodes
+    zed
     zoom
 )
 
@@ -75,10 +72,11 @@ for cask in "${casks[@]}"; do
 done
 
 apps=(
-    640199958 # Developer
-    1380446739 # InjectionIII
-    1504940162 # RocketSim for Xcode
-    1450874784 # Transporter
+    918858936	# Airmail
+    640199958	# Developer
+    1380446739	# InjectionIII
+    1504940162	# RocketSim for Xcode
+    1450874784	# Transporter
 )
 
 for app in "${apps[@]}"; do
