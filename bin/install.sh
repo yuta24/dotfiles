@@ -23,6 +23,7 @@ formulas=(
     git
     git-lfs
     gpg
+    helix
     jq
     mas
     peco
