@@ -40,6 +40,7 @@ done
 
 casks=(
     1password
+    alacritty
     arc
     daisydisk
     deepl
