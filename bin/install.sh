@@ -26,6 +26,7 @@ formulas=(
     helix
     jq
     mas
+    neovim
     peco
     rust
     starship
