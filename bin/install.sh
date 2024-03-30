@@ -106,6 +106,7 @@ cargos=(
     ripgrep
     skim
     tokei
+    zellij
 )
 
 for cargo in "${cargos[@]}"; do
