@@ -1,0 +1,7 @@
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[font]
+normal = { family = "Hack Nerd font", style = "Regular" }
+size = 12.0
