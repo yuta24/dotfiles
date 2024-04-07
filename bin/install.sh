@@ -42,6 +42,7 @@ casks=(
     1password
     alacritty
     arc
+    cursor
     daisydisk
     deepl
     discord
