@@ -32,7 +32,6 @@ formulas=(
     peco
     rust
     starship
-    terraform
     tmux
     zsh-completions
 )
