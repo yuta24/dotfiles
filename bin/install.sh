@@ -15,6 +15,8 @@ formulas=(
     cask
     cloc
     direnv
+    docker
+    docker-compose
     envchain
     font-hack-nerd-font
     gawk
